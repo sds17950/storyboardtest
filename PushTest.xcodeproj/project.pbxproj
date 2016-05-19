@@ -12,6 +12,8 @@
 		C4321F141CEC5A0000523CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4321F121CEC5A0000523CCC /* Main.storyboard */; };
 		C4321F161CEC5A0000523CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4321F151CEC5A0000523CCC /* Assets.xcassets */; };
 		C4321F191CEC5A0000523CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4321F171CEC5A0000523CCC /* LaunchScreen.storyboard */; };
+		C4332BAC1CED4B1F000F0DA7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4332BAB1CED4B1F000F0DA7 /* SecondViewController.swift */; };
+		C4332BAE1CED4B55000F0DA7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4332BAD1CED4B55000F0DA7 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C4321F151CEC5A0000523CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4321F181CEC5A0000523CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4321F1A1CEC5A0000523CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4332BAB1CED4B1F000F0DA7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C4332BAD1CED4B55000F0DA7 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				C4321F0E1CEC5A0000523CCC /* AppDelegate.swift */,
 				C4321F101CEC5A0000523CCC /* ViewController.swift */,
+				C4332BAB1CED4B1F000F0DA7 /* SecondViewController.swift */,
+				C4332BAD1CED4B55000F0DA7 /* ThirdViewController.swift */,
 				C4321F121CEC5A0000523CCC /* Main.storyboard */,
 				C4321F151CEC5A0000523CCC /* Assets.xcassets */,
 				C4321F171CEC5A0000523CCC /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4332BAC1CED4B1F000F0DA7 /* SecondViewController.swift in Sources */,
 				C4321F111CEC5A0000523CCC /* ViewController.swift in Sources */,
+				C4332BAE1CED4B55000F0DA7 /* ThirdViewController.swift in Sources */,
 				C4321F0F1CEC5A0000523CCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				C4321F1F1CEC5A0000523CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
